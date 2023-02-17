@@ -26,7 +26,7 @@ String deviceName = "Device5";
 //Sensor IIC addresses
 #define ADDR (byte)(0x40)
 #define TMP_CMD (byte)(0xF3)
-
+m
 //Instantiating sensor object and configuration
 AsyncAPDS9306 lightSensor;
 const APDS9306_ALS_GAIN_t aGain = APDS9306_ALS_GAIN_1;
